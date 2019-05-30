@@ -7,5 +7,11 @@ namespace hjorringFurnitues.Web.Pages.Logic
 {
     public class ProductRepository
     {
+        public static List<Product> GetProductsFromFile()
+        {
+            List<Product> listOfProducts = new List<Product>();
+
+            return listOfProducts;
+        }
     }
 }
